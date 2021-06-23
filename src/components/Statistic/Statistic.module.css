@@ -1,0 +1,32 @@
+.statistics {
+  margin: 15px;
+  background-color: white;
+  width: fit-content;
+  height: auto;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 5);
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #696666;
+  color: black;
+}
