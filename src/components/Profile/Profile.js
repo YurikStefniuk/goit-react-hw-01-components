@@ -14,7 +14,7 @@ const Profile = ({
     <div className={styles.profile}>
       <div className={styles.description}>
         <img
-          src={avatar ?? Default}
+          src={Default ?? avatar}
           alt="Аватар пользователя"
           class="avatar"
           width="200px"
