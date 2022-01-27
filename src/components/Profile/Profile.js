@@ -1,5 +1,5 @@
 import React from 'react';
-import Default from '../image/default.PNG';
+import Default from '../../Image/default.PNG';
 import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
 
